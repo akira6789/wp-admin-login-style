@@ -27,7 +27,7 @@ function jav_login_enqueue_scripts(){
 echo '<style type="text/css" media="screen">';
 echo '#login h1 a
 {
-background-image:url(', get_stylesheet_directory_uri() . '/images/logo-wide-web-gia-re.png);
+background-image:url(https://github.com/akira6789/wp-admin-login-style/blob/main/logo-wide-web-gia-re.png?raw=true/images/logo-wide-web-gia-re.png);
 ;';
 echo '</style>';
 }
@@ -48,7 +48,7 @@ return 'Akira Mobile';
 
 //Tùy chỉnh CSS cho trang đăng nhập Wordpress
 function login_css() {
-wp_enqueue_style( 'login_css', get_stylesheet_directory_uri() . '/login.css' ); 
+wp_enqueue_style( 'login_css','https://github.com/akira6789/wp-admin-login-style/raw/refs/heads/main/login.css' ); 
 }
 add_action('login_head', 'login_css');
 
